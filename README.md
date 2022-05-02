@@ -1,5 +1,5 @@
 # eduApp
 
-[![Build on EAS](https://github.com/sawaYch/eduApp/actions/workflows/build.yml/badge.svg)](https://github.com/sawaYch/eduApp/actions/workflows/build.yml) [![Release on EAS](https://github.com/sawaYch/eduApp/actions/workflows/release.yml/badge.svg)](https://github.com/sawaYch/eduApp/actions/workflows/release.yml)
+[![Expo publish](https://github.com/sawaYch/eduApp/actions/workflows/expo_publish.yml/badge.svg)](https://github.com/sawaYch/eduApp/actions/workflows/expo_publish.yml) [![EAS build (Android)](https://github.com/sawaYch/eduApp/actions/workflows/eas_build.yml/badge.svg)](https://github.com/sawaYch/eduApp/actions/workflows/eas_build.yml)
 
 .gun
