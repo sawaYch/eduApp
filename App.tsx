@@ -12,8 +12,8 @@ export default function App() {
   const isLoadingComplete = useCachedResources()
   const colorScheme = useColorScheme()
 
-  const resources = useMemo(() => {
-    return {
+  const resources = useMemo(
+    () => ({
       en: {
         translation: {
           a: 'a',
@@ -24,13 +24,14 @@ export default function App() {
           a: '甲',
         },
       },
-    }
-  }, [])
+    }),
+    [],
+  )
 
   useEffect(() => {
     i18n.use(initReactI18next).init({
       resources,
-      lng: 'zh',
+      lng: 'en',
       interpolation: {
         escapeValue: false,
       },
