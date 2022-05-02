@@ -1,4 +1,4 @@
-name: Release on EAS
+name: Expo publish
 on:
   workflow_dispatch:
   push:
